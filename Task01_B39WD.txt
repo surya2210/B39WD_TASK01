@@ -1,0 +1,32 @@
+1.Difference Between Http1 And Http2?
+
+Http1
+.HTTP1 loads a single request for every TCP connection.
+.HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, 
+it blocks all the other resources behind it.
+.Established IN 1997
+.It is relatively secure since it uses digest authentication, NTLM authentication.
+
+
+HTTP2
+.HTTP2 is much faster and more reliable than HTTP1
+.HTTP/2 is able to use a single TCP connection to send multiple streams of data at
+ once so that no one resource blocks any other resource.
+.Established In 2015
+.Security concerns from previous versions will continue to be seen in HTTP/2. However, 
+it is better equipped to deal with them due to new TLS features like connection error of type Inadequate_Security.
+
+
+2.What is Object?
+.In javascript,everything is Object
+.Objects Are Real life things like Human,Car,Vehicle etc.
+.Object are Collection Of Key-Value Pair.
+.Object can be Accessed in Two ways-Dot Notation,Bracket Notation.
+
+.Creation Of Object.
+Var ObjName={
+
+};-Empty Object.
+
+
+
